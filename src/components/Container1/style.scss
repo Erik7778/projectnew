@@ -1,0 +1,151 @@
+.cont1 {
+    box-sizing: border-box;
+    height: 150vh;
+    width: 100%;
+    background-color: #F2F2F2;
+
+    .orangeblock {
+        position: absolute;
+        left: 35%;
+        height: 130vh;
+        width: 20%;
+        background-color: #E8662B;
+    }
+
+    .blueblock {
+        z-index: 99;
+        width: 40%;
+        height: 380px;
+        background-color: #394D60;
+        position: absolute;
+        left: 7%;
+        bottom: 150px;
+
+        h3 {
+            margin-left: 20px;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+            font-weight: lighter;
+            line-height: 1.5;
+        }
+
+        h1 {
+            font-family: Oswald, sans-serif;
+            font-size: 54px;
+            color: white;
+            margin-top: 40px;
+            line-height: 1.1;
+        }
+
+        h4 {
+            margin-left: 20px;
+            text-align: left;
+            font-size: 20px;
+            color: white;
+            margin-top: 40px;
+        }
+      
+
+        span {
+            text-decoration: underline;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    }
+
+
+    .img1 {
+        z-index: 4;
+        position: absolute;
+        left: 42%;
+        bottom: -35px;
+        background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/2dc07a29426952e4b6a9955f/ht6uy-min.jpg);
+        width: 730px;
+        height: 600px;
+        background-size: cover;
+
+    }
+
+    .fourblock {
+        z-index: 5;
+        position: absolute;
+        left: 4%;
+        top: 82%;
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        height: 350px;
+        // background-color: #394D60;
+
+
+
+
+        div {
+            margin: 10px;
+            width: 300px;
+            height: 100%;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 19px;
+            }
+        }
+
+        .card1 {
+            background-color: rgb(255, 255, 255);
+
+            .imgfor1 {
+                background-image: url(https://cdn-icons.flaticon.com/png/512/4906/premium/4906173.png?token=exp=1652014569~hmac=fd9f59c4e6b19c19c2a8b50674589246);
+                height: 80px;
+                width: 80px;
+                background-size: cover;
+            }
+        }
+
+        .card2 {
+            background-color: rgb(255, 255, 255);
+
+            .imgfor2 {
+                background-image: url(https://cdn-icons.flaticon.com/png/512/1066/premium/1066022.png?token=exp=1652015504~hmac=b06b6cee5ba7e310db55b1f711984a5e);
+                height: 80px;
+                width: 80px;
+                background-size: cover;
+            }
+        }
+
+        .card3 {
+            background-color: rgb(255, 255, 255);
+
+            .imgfor3 {
+                background-image: url(https://cdn-icons-png.flaticon.com/512/3373/3373865.png);
+                height: 80px;
+                width: 80px;
+                background-size: cover;
+            }
+
+        }
+
+        .card4 {
+            background-color: rgb(255, 255, 255);
+
+            .imgfor4 {
+                background-image: url(https://cdn-icons.flaticon.com/png/512/4451/premium/4451231.png?token=exp=1652015962~hmac=ecf03a20f22fb673bf4f71861c073a13);
+                height: 80px;
+                width: 80px;
+                background-size: cover;
+            }
+
+        }
+
+
+    }
+
+}

@@ -1,0 +1,88 @@
+.cont3 {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+
+    .small-cont {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+.topic3th{
+width: 500px;
+h3{
+    font-size: 27px;
+}
+p{
+    font-size: 22px;
+}
+
+
+
+}
+
+.img-3{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/296de7e8d8f35c4bb2f41366/empty-floor-front-modern-building_1127-3154.jpg);
+    background-size: cover;
+    width: 400px;
+    height: 390px;
+}
+    }
+
+
+
+
+
+    .small-cont2 {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        
+        
+        .img-4{
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/becf55f1b3185aa897541a7d/creative-architect-projecting-big-drawings-dark-loft-office-cafe-with-dark-retro-style_1423-261.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 70px;
+}
+button{
+    width: 250px;
+    height: 70px;
+    background-color: orange;
+    border: none;
+    position: relative;
+    top: 220px;
+
+    span{
+        color: white;
+        font-size: 20px;
+    }
+}
+
+.topic4th{
+margin-left: 50px;
+margin-top: 20px;    
+width: 500px;
+h3{
+    font-size: 27px;
+}
+span{
+    font-size: 21px;
+    line-height: 38px;
+}
+
+
+
+}
+
+
+    }
+
+
+}

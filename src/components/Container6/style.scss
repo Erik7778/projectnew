@@ -1,0 +1,56 @@
+.container6 {
+    height: 100vh;
+    width: 100%;
+    background-color: #E8662B;
+    display: flex;
+    justify-content: center;
+
+    .bigblock {
+        position: relative;
+        top: 30%;
+        width: 80%;
+        height: 1100px;
+        background-color: #F2F2F2;
+
+        .bigblock-img {
+            position: absolute;
+            left: 20%;
+            bottom: 570px;
+            width: 750px;
+            height: 600px;
+            background-size: cover;
+            background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/871b7a8ca94356478e66091e/rerrr-min.jpg);
+        }
+        .topic-bigblock{
+            text-align: center;
+            position: relative;
+            top: 60%;
+            h3{
+                font-size: 60px;
+            }
+             
+            p{
+                font-size: 24px;
+            }
+            h4{
+                font-size: 30px;
+            }
+            button{
+                margin-top: 20px;
+                cursor: pointer;
+                background-color: #E8662B;
+                width: 220px;
+                height: 64px;
+                border: none;
+                span{
+                    color: white;
+                    font-size: 20px;
+                }
+                &:hover{
+               background-color: blue;
+                }
+            }
+        }
+
+    }
+}
